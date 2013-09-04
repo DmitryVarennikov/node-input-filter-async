@@ -1,7 +1,6 @@
 {
     "name": "input-filter-async",
-    "_id": "input-filter-async@1.0.0",
-    "version": "1.0.0",
+    "version": "0.0.0",
     "description": "A high-level library for filtering (sanitisation) and validating input data",
     "keywords": [
         "validator",
@@ -36,6 +35,9 @@
         "url": "git://github.com/dVaffection/node-input-filter-async.git"
     },
     "scripts": {
-        "test": "nodeunit tests"
+        "test": "./node_modules/nodeunit/bin/nodeunit tests"
+    },
+    "engines": {
+        "node": ">=0.2.2"
     }
 }
