@@ -1,7 +1,7 @@
 Asynchronous input filter
 =======================
 
-[![Build Status](https://api.travis-ci.org/dVaffection/node-input-filter-async.png)](https://travis-ci.org/dVaffection/node-input-filter-async)
+[![Build Status](https://travis-ci.org/dVaffection/node-input-filter-async.png?branch=master)](https://travis-ci.org/dVaffection/node-input-filter-async)
 
 A high-level library for filtering (sanitization) and validating input data
 
