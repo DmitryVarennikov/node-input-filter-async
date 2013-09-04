@@ -1,0 +1,41 @@
+{
+    "name": "input-filter-async",
+    "_id": "input-filter-async@1.0.0",
+    "version": "1.0.0",
+    "description": "A high-level library for filtering (sanitisation) and validating input data",
+    "keywords": [
+        "validator",
+        "validation",
+        "filter",
+        "filtration",
+        "sanitize",
+        "sanitisation",
+        "sanitization",
+        "xss",
+        "input"
+    ],
+    "main": "input-filter-async.js",
+    "author": {
+        "name": "dV",
+        "email": "dVaffection@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "validator": "1.0.x",
+        "underscore": "1.4.x",
+        "async": "0.2.x"
+    },
+    "devDependencies": {
+        "nodeunit": "0.8.x"
+    },
+    "bugs": {
+        "url": "http://github.com/dVaffection/node-input-filter-async/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dVaffection/node-input-filter-async.git"
+    },
+    "scripts": {
+        "test": "nodeunit tests"
+    }
+}
